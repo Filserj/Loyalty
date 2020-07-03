@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C6A1611-9732-4A6E-E5C6-5FA9554CF917" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="MCC_CODES">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>MCC_CODES</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:58 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2534FB0B-C773-BC3C-65FE-E71C65CB88C0">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MCC_CODES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MCC" id="4E741D4D-76C6-739F-4813-2FC02622AEA5">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MCC_CODES</sourceObjSchema>
+<sourceObjName>MCC</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MCC_DESC" id="F396A865-D336-1DB6-3528-6668D19C407B">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MCC_CODES</sourceObjSchema>
+<sourceObjName>MCC_DESC</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CASHBACK_PERCENT" id="749F1577-4241-3DBB-FF7D-3094632EF8BB">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MCC_CODES</sourceObjSchema>
+<sourceObjName>CASHBACK_PERCENT</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="1770B06C-4C14-538C-8709-7F89BDEBE83A">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MCC_CODES</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="88B29BF6-D4ED-2D12-9DF0-C22940844948">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MCC_CODES</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98C84A8C-795E-2E77-6706-AB10CDC50797" name="PK_MCC_CODE">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_MCC_CODE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:15 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2534FB0B-C773-BC3C-65FE-E71C65CB88C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F194BF6C-917E-A6CC-0D1A-234CEEE80498" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="PK_MCC_CODE">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_MCC_CODE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:07 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2534FB0B-C773-BC3C-65FE-E71C65CB88C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

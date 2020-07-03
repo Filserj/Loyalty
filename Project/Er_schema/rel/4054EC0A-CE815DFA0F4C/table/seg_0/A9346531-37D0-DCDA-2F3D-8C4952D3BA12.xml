@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9346531-37D0-DCDA-2F3D-8C4952D3BA12" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="REFUNDS_RESULTS">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>REFUNDS_RESULTS</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:58 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="165B96C7-4F32-EB70-2D9F-A3132CE48FA4">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>REFUNDS_RESULTS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_ID" id="78889333-E708-FBE4-BB2C-8DBC7B64F1E3">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>REFUNDS_RESULTS</sourceObjSchema>
+<sourceObjName>CARD_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E76DA45-117C-7807-BB3E-A9DC917AF4CF" referredColumn="27A33665-1D2E-912C-0A8D-EBEACEC655A9"/>
+</associations>
+</Column>
+<Column name="REFUSE_ID" id="6AB634D8-F0F0-F748-7C53-3CCFE7EBD6A5">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>REFUNDS_RESULTS</sourceObjSchema>
+<sourceObjName>REFUSE_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7572847A-3A06-BFB1-FBF4-095396C1B327" referredColumn="8973B615-75A0-DF1F-E19F-2E0476778303"/>
+</associations>
+</Column>
+<Column name="CASHBACK_SUM" id="9096DE87-04EC-D88E-5AD8-C0A21DCDBB71">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>REFUNDS_RESULTS</sourceObjSchema>
+<sourceObjName>CASHBACK_SUM</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT_DATE" id="E2846548-F248-A383-07FC-DAFEDDA13951">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>REFUNDS_RESULTS</sourceObjSchema>
+<sourceObjName>AMOUNT_DATE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99694FFD-80C1-B658-46B2-FED993C33F6A" name="PK_REFUND_RESULT_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_REFUND_RESULT_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:15 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="165B96C7-4F32-EB70-2D9F-A3132CE48FA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64D3A3F6-D1B0-4FE1-9CB7-398CB8978D6A" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="PK_REFUND_RESULT_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_REFUND_RESULT_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:07 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="165B96C7-4F32-EB70-2D9F-A3132CE48FA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20A5336B-404A-4E9A-DE01-461FF975F433" name="FK_REF_RES_CARD_ID">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78889333-E708-FBE4-BB2C-8DBC7B64F1E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01E929E9-ADEA-C58C-A801-F6ABAB9D1BFC" name="FK_REF_RES_REF_ID">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AB634D8-F0F0-F748-7C53-3CCFE7EBD6A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

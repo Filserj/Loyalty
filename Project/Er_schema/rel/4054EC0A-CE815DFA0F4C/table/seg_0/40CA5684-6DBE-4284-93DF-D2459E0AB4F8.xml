@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40CA5684-6DBE-4284-93DF-D2459E0AB4F8" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="FILE_ERROR_CODES">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>FILE_ERROR_CODES</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:58 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A9B482A3-56E3-7533-A362-4666B300D193">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>FILE_ERROR_CODES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_CODE" id="B9C9BBED-E8F0-1D1B-3B98-C7F1F168600E">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>FILE_ERROR_CODES</sourceObjSchema>
+<sourceObjName>E_CODE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXT" id="5CB82F03-07A8-7C91-FE45-D60B553E1764">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>FILE_ERROR_CODES</sourceObjSchema>
+<sourceObjName>TEXT</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="312EF414-2291-5182-80D6-A923E86DAF4E" name="PK_F_ERROR_CODE">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_F_ERROR_CODE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:14 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9B482A3-56E3-7533-A362-4666B300D193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C196F15-DF2B-9CC8-02FA-4705486C506D" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="PK_F_ERROR_CODE">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_F_ERROR_CODE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:07 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9B482A3-56E3-7533-A362-4666B300D193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

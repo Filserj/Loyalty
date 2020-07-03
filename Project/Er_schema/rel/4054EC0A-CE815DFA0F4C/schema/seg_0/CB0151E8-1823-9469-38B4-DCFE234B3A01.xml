@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="CASHBACK" directorySegmentName="seg_0" id="CB0151E8-1823-9469-38B4-DCFE234B3A01">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:53 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</SchemaObject>

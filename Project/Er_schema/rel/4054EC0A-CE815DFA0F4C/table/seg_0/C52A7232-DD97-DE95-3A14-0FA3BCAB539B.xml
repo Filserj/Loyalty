@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C52A7232-DD97-DE95-3A14-0FA3BCAB539B" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="CARDS">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>CARDS</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:53 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="27A33665-1D2E-912C-0A8D-EBEACEC655A9">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CARDS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_HASH" id="027B1391-87DD-C327-80E7-3BFCBF2140FA">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CARDS</sourceObjSchema>
+<sourceObjName>CARD_HASH</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_MAIN" id="F55F3720-CF76-A64F-EA67-F5D98EE36DCA">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CARDS</sourceObjSchema>
+<sourceObjName>IS_MAIN</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAIN_CARD_ID" id="924C0857-0C84-F812-B264-6AD07C8DE708">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CARDS</sourceObjSchema>
+<sourceObjName>MAIN_CARD_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66DF4952-A538-5CED-B9BE-CBAFB60E463F" referredColumn="27A33665-1D2E-912C-0A8D-EBEACEC655A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CD53E1E-0429-C8B8-2A1D-A5AE8291450B" name="PK_CARD_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_CARD_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:12 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27A33665-1D2E-912C-0A8D-EBEACEC655A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD32C488-B191-5393-E010-73F45F8A3B74" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="PK_CARD_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_CARD_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:06 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27A33665-1D2E-912C-0A8D-EBEACEC655A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09D6005E-48FC-96AA-92FD-600D989765B6" name="FK_MAIN_CARD_ID">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="924C0857-0C84-F812-B264-6AD07C8DE708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

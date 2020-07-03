@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7572847A-3A06-BFB1-FBF4-095396C1B327" containerWithKeyObject="A9346531-37D0-DCDA-2F3D-8C4952D3BA12" localFKIndex="01E929E9-ADEA-C58C-A801-F6ABAB9D1BFC" name="FK_REF_RES_REF_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>FK_REF_RES_REF_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<referredTableLongName>CASHBACK.REFUNDS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B2A4FB7-637D-3FC1-62CD-EADAFF9C0E5A</referredTableID>
+<keyObject>6BC09642-E771-88FB-B3B2-357AF5C0D6D6</keyObject>
+<referredKeyID>6BC09642-E771-88FB-B3B2-357AF5C0D6D6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

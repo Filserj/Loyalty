@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F6A1255-CD73-912E-F786-07732FF129C1" containerWithKeyObject="46B78D34-C80A-7964-40FC-38044C550A66" localFKIndex="BA12C510-3DBF-46A1-04B1-D77583444F3B" name="FK_PURC_RES_PURC_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>FK_PURC_RES_PURC_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<referredTableLongName>CASHBACK.PURCHASES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>30D55E78-DF6D-E953-E221-2EC3C79E2D59</referredTableID>
+<keyObject>CFB7FD67-D1EA-5407-DB84-93EAA2E8215A</keyObject>
+<referredKeyID>CFB7FD67-D1EA-5407-DB84-93EAA2E8215A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

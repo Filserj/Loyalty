@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PROCESSED_FILES" directorySegmentName="seg_0" id="3BE99F04-A2DD-A77D-9DF1-B90902408F3E">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:58 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A584C5A6-C748-7E38-98D6-D7671C1DB94D</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CALC_PURC_NUM" id="09B3A175-65DD-3AD8-3132-3236765DB7F8">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="F_REF_NUM" id="0AE951FF-68D6-C263-8002-FC0760458FFB">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="F_ERROR_CODE" id="4D613F69-EDA3-D281-8EB5-8DEFA02F25B2">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="F_PURC_NUM" id="4E0C70EF-B1F9-0277-47CE-22A29F2C6BCD">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="53BA46D0-A563-A7B2-9345-B33A5288A852">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROC_DATE" id="6D1EC310-B670-003A-658D-E7316AF6B99C">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="R_FILE_DATE" id="CE7A07C0-68A8-EF8E-9618-8ED749143A60">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="R_FILE_ID" id="D11500A1-642D-EFCB-9683-947631DF3876">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CALC_REF_NUM" id="FA3079A8-182F-3DAC-B872-78CD8B5CEDCB">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PROC_FILE_ID" id="510E434D-149C-E53B-8EDE-8CFD3D965A87">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:07 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PROC_FILE_ID" id="01D33F48-2927-B61E-B70C-69447BE27DC3">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_F_ERROR_CODE" id="3DE2642A-A3E0-D210-E616-36770ADA852B">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PROC_FILE_ID" id="5224A214-25FC-B252-7D54-7F057CDEB0C8">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:15 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<existingIndex>510E434D-149C-E53B-8EDE-8CFD3D965A87</existingIndex>
+<indexSegment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

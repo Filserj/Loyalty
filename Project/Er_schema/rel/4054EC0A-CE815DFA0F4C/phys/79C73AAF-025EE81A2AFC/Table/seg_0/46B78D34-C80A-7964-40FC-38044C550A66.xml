@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PURCHASES_RESULTS" directorySegmentName="seg_0" id="46B78D34-C80A-7964-40FC-38044C550A66">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:58 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A584C5A6-C748-7E38-98D6-D7671C1DB94D</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="0EEE3473-7948-3F78-9509-B837B2B8B27D">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT_DATE" id="48D20CF9-968A-7825-0ACE-DB2B17B3D564">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CARD_ID" id="64721658-57D1-62F2-8D23-F284D807888B">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CASHBACK_SUM" id="86AB1528-130E-9CF3-09A0-65B3D4636FB2">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PURCHASE_ID" id="CD68F0BF-E902-435B-70A8-0FECF2BC61CB">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CASHBACK_ID" id="26176962-0FA2-AA79-AAE8-75DFC1AE56A3">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:07 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PURC_RES_CARD_ID" id="156D3C4D-F657-9FED-4479-E8BECF6C2103">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PURC_RES_PURC_ID" id="BA12C510-3DBF-46A1-04B1-D77583444F3B">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CASHBACK_ID" id="A423F355-CCCA-E5CC-376C-038F12876F6E">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:15 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<existingIndex>26176962-0FA2-AA79-AAE8-75DFC1AE56A3</existingIndex>
+<indexSegment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FILE_STATE" directorySegmentName="seg_0" id="5735D36B-3EBD-B1E3-636B-258BBCDA5B0D">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:58 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A584C5A6-C748-7E38-98D6-D7671C1DB94D</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATE" id="68D59EE9-120B-AC46-3F93-42E2F73DA711">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="71AA6284-8D2B-3CC1-7915-8E5D7D488B87">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_F_STATE_ID" id="6C7F50B4-71BE-E7C9-E617-F5D76B8D9316">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:07 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_F_STATE_ID" id="7220C532-D050-8797-B918-D5B01D0AE8D5">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:15 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<existingIndex>6C7F50B4-71BE-E7C9-E617-F5D76B8D9316</existingIndex>
+<indexSegment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

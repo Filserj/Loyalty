@@ -1,0 +1,40 @@
+Код МСС;Тип торговой точки;ABBR;Название торговой точки (латиница)
+3011; Aeroflot;AFT;AEROFLOT
+3089; Transaero;TSA;TRANSAERO  
+4112; Passenger RailwaysX;RZD;RZD
+4112; Passenger RailwaysX;ORZD;WWW.RZD.RU 
+4112; Passenger RailwaysX;OAEX;WWW.PAY.AEROEXPRESS.R 
+4511; Airlines, Air Carriers;S7A;S7 Airlines
+4812; Telephone Service/Equip....;MTS;MTS
+4814; Telecommunication Service;OMTS;WWW.MTS.RU
+4814; Telecommunication Service;NTK;NOVOTELEKOM
+4814; Telecommunication Service;RTK;ROSTELECOM
+4816; Computer Network/Informatio;NBN;WWW.NETBYNET.RU
+4899; Cable Services;TRT;TRICOLOR TV
+4814; Telecommunication Service;VK;VYMPELKOM
+4900; Utilities-electric,gas,wate;NSKE;NOVOSIBIRSKENERGO
+4900; Utilities-electric,gas,wate;SECO;SIBECO
+4900; Utilities-electric,gas,wate;SENE;SIBIRENERGO
+5261; Nurseries,lawn & Garden;LMR;LEROY MERLIN
+5311; Department stores;GGT;TC GIGANT
+5411; Grocery Stores,supermarkets;MNK;MONETKA
+5411; Grocery Stores,supermarkets;BNM;BYSTRONOM
+5411; Grocery Stores,supermarkets;LNT;LENTA 
+5411; Grocery Stores,supermarkets;BHT;BAHETLE
+5411; Grocery Stores,supermarkets;OK;OKEY
+5411; Grocery Stores,supermarkets;MGT;MAGNIT 
+5411; Grocery Stores,supermarkets;ACH;AUCHAN
+5499; Miscellaneous Food Stores;IKEA;IKEA 
+5499; Miscellaneous Food Stores;FIV;PYATEROCHKA
+5541; Service Stations;SHN;SHELL NEFT 
+5651; Family Clothing Stores;GJ;GLORIA JEANS
+5691; Men's And Ladies's Clothing;BRS;BERSHKA
+5691; Men's And Ladies's Clothing;INY;INCITY
+5722; Household Appliance Stores;MV;M.VIDEO 
+5722; Household Appliance Stores;2VO;220 VOLT
+5722; Household Appliance Stores;ELD;ELDORADO
+5732; Electronic Sales;OZ;OZON.RU
+5732; Electronic Sales;CTL;CITILINK
+5734; Computer Software Stores;DNS;DNS
+5812; Eating Places,Restaurants;PJ;PAPA JOHNS
+5921; Package Stores - Beer, Liqu;PL;PIVNAYA LAVKA

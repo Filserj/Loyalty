@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MCC_CODES" directorySegmentName="seg_0" id="7C6A1611-9732-4A6E-E5C6-5FA9554CF917">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:58 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A584C5A6-C748-7E38-98D6-D7671C1DB94D</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="START_DATE" id="1770B06C-4C14-538C-8709-7F89BDEBE83A">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="2534FB0B-C773-BC3C-65FE-E71C65CB88C0">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MCC" id="4E741D4D-76C6-739F-4813-2FC02622AEA5">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CASHBACK_PERCENT" id="749F1577-4241-3DBB-FF7D-3094632EF8BB">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="88B29BF6-D4ED-2D12-9DF0-C22940844948">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MCC_DESC" id="F396A865-D336-1DB6-3528-6668D19C407B">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_MCC_CODE" id="F194BF6C-917E-A6CC-0D1A-234CEEE80498">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:07 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_MCC_CODE" id="98C84A8C-795E-2E77-6706-AB10CDC50797">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:15 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<existingIndex>F194BF6C-917E-A6CC-0D1A-234CEEE80498</existingIndex>
+<indexSegment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

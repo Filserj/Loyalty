@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACCOUNTS" directorySegmentName="seg_0" id="70E7B158-1FC1-8DA4-0B58-C4CB03E5E468">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:53 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A584C5A6-C748-7E38-98D6-D7671C1DB94D</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CURRENT_REPORT_END" id="0D5098BD-E61D-D8BA-8870-92F89697CF0D">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRENT_REPORT_START" id="4675E5F8-0711-F945-5A97-D46F36314D2E">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_PERIOD_TRANS_NUM" id="5284EF66-89A3-F643-26A8-BF07B24C5805">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRENT_PERIOD_CASHBACK_SUM" id="52C96BA2-B73B-ED74-29BB-8170EE5FEDAA">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_PERIOD_CASHBACK_SUM" id="5CFEE136-043F-0074-E8EA-CD99657BA011">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LASR_REPORT_END" id="787F3CBD-13CC-4C7D-86C9-7B1C15B483FA">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="9669B401-A427-99E1-84DB-4DC14FF8313E">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURENT_PERIOD_TRANS_NUM" id="9A893EA3-C7DB-C3CE-DD86-082C5BEF27AA">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CARD_ID" id="A686DCE4-8873-43CC-CC7C-7BB99EE063A2">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_REPORT_START" id="EDCCBFE7-A55E-F215-7005-D161EF5F4821">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:01 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ACC_ID" id="15E42D3F-E629-8877-2673-939D6D015C26">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:06 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_ACCOUNTS_CARD_ID" id="22FCA595-2AB6-0F17-253C-C212B65399D1">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:06 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<schemaObject>CB0151E8-1823-9469-38B4-DCFE234B3A01</schemaObject>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CARDS_CARD_ID" id="1D51DF5C-DE0E-E35C-33CB-B839F27138FD">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ACC_ID" id="6867039E-88F1-DF06-5C36-DC5EC2C7B137">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:12 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<segment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</segment>
+<tableSpace>337CB962-37B0-90AE-2EDA-492A367EFF1D</tableSpace>
+<existingIndex>15E42D3F-E629-8877-2673-939D6D015C26</existingIndex>
+<indexSegment>D6D12A4C-A390-4B08-50C2-2B20CCE1C0A3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

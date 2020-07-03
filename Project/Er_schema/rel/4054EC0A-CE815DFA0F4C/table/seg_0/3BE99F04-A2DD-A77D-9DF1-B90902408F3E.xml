@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BE99F04-A2DD-A77D-9DF1-B90902408F3E" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="PROCESSED_FILES">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PROCESSED_FILES</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:58 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="53BA46D0-A563-A7B2-9345-B33A5288A852">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>PROCESSED_FILES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DF51B83-5379-A1DE-6AA1-E9871230F958" referredColumn="5AC558DC-24CE-1081-D2D1-DC035EB40237"/>
+</associations>
+</Column>
+<Column name="R_FILE_ID" id="D11500A1-642D-EFCB-9683-947631DF3876">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>PROCESSED_FILES</sourceObjSchema>
+<sourceObjName>R_FILE_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="R_FILE_DATE" id="CE7A07C0-68A8-EF8E-9618-8ED749143A60">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>PROCESSED_FILES</sourceObjSchema>
+<sourceObjName>R_FILE_DATE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROC_DATE" id="6D1EC310-B670-003A-658D-E7316AF6B99C">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>PROCESSED_FILES</sourceObjSchema>
+<sourceObjName>PROC_DATE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALC_PURC_NUM" id="09B3A175-65DD-3AD8-3132-3236765DB7F8">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>PROCESSED_FILES</sourceObjSchema>
+<sourceObjName>CALC_PURC_NUM</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALC_REF_NUM" id="FA3079A8-182F-3DAC-B872-78CD8B5CEDCB">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>PROCESSED_FILES</sourceObjSchema>
+<sourceObjName>CALC_REF_NUM</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F_PURC_NUM" id="4E0C70EF-B1F9-0277-47CE-22A29F2C6BCD">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>PROCESSED_FILES</sourceObjSchema>
+<sourceObjName>F_PURC_NUM</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F_REF_NUM" id="0AE951FF-68D6-C263-8002-FC0760458FFB">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>PROCESSED_FILES</sourceObjSchema>
+<sourceObjName>F_REF_NUM</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F_ERROR_CODE" id="4D613F69-EDA3-D281-8EB5-8DEFA02F25B2">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>PROCESSED_FILES</sourceObjSchema>
+<sourceObjName>F_ERROR_CODE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="142FD401-E7C1-1C23-2810-EEEE6D2D2B13" referredColumn="A9B482A3-56E3-7533-A362-4666B300D193"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5224A214-25FC-B252-7D54-7F057CDEB0C8" name="PK_PROC_FILE_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_PROC_FILE_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:15 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53BA46D0-A563-A7B2-9345-B33A5288A852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="510E434D-149C-E53B-8EDE-8CFD3D965A87" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="PK_PROC_FILE_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_PROC_FILE_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:07 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53BA46D0-A563-A7B2-9345-B33A5288A852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DE2642A-A3E0-D210-E616-36770ADA852B" name="FK_F_ERROR_CODE">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D613F69-EDA3-D281-8EB5-8DEFA02F25B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01D33F48-2927-B61E-B70C-69447BE27DC3" name="FK_PROC_FILE_ID">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53BA46D0-A563-A7B2-9345-B33A5288A852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

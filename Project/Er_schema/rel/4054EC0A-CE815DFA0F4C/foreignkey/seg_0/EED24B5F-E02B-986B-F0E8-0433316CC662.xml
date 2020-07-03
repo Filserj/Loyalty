@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EED24B5F-E02B-986B-F0E8-0433316CC662" containerWithKeyObject="70E7B158-1FC1-8DA4-0B58-C4CB03E5E468" localFKIndex="1D51DF5C-DE0E-E35C-33CB-B839F27138FD" name="FK_CARDS_CARD_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>FK_CARDS_CARD_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<referredTableLongName>CASHBACK.CARDS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C52A7232-DD97-DE95-3A14-0FA3BCAB539B</referredTableID>
+<keyObject>3CD53E1E-0429-C8B8-2A1D-A5AE8291450B</keyObject>
+<referredKeyID>3CD53E1E-0429-C8B8-2A1D-A5AE8291450B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

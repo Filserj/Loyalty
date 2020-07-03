@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE62895E-AB35-6085-186E-89E6A7641B5C" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="MERCHANTS">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>MERCHANTS</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:26:58 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B8EBD6C7-42BF-BF42-6CB9-362567227887">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MERCHANTS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MERCHANT_NAME" id="B9698207-FDAB-4CF9-E3F2-5B57917B419B">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MERCHANTS</sourceObjSchema>
+<sourceObjName>MERCHANT_NAME</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT_PERCENT" id="9FDC5C63-6A01-BF4E-13C4-B7A2B2BF6185">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MERCHANTS</sourceObjSchema>
+<sourceObjName>AMOUNT_PERCENT</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="73D38CB4-CD6F-8A94-2D77-7510C46AAD3D">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MERCHANTS</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="3F4FC10B-2BB3-7B33-196F-95D23F4F2458">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MERCHANTS</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MERCHANT_CATEGORY_ID" id="8F8EC0A7-14B1-4E69-750C-241C5C80F2A2">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MERCHANTS</sourceObjSchema>
+<sourceObjName>MERCHANT_CATEGORY_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E209A31-74A4-E614-7AB4-FF4275835331" referredColumn="2534FB0B-C773-BC3C-65FE-E71C65CB88C0"/>
+</associations>
+</Column>
+<Column name="TRANS_PREFIX" id="99A63B29-ACE3-AB1C-583D-2A09029D3EA1">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>MERCHANTS</sourceObjSchema>
+<sourceObjName>TRANS_PREFIX</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:03 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="809DA599-3417-7D71-EC48-0D260A6E6D11" name="PK_MERCHANT_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_MERCHANT_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:15 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8EBD6C7-42BF-BF42-6CB9-362567227887"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB5B80D6-ECD9-BDD8-B648-8486BBFCBB49" schemaObject="CB0151E8-1823-9469-38B4-DCFE234B3A01" name="PK_MERCHANT_ID">
+<sourceConnName>XE</sourceConnName>
+<sourceObjSchema>CASHBACK</sourceObjSchema>
+<sourceObjName>PK_MERCHANT_ID</sourceObjName>
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:07 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8EBD6C7-42BF-BF42-6CB9-362567227887"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60D9F389-4C46-58E2-1610-CAAC41DB0C1A" name="FK_MERCH_CAT_ID">
+<createdBy>Serega</createdBy>
+<createdTime>2020-05-27 02:27:26 UTC</createdTime>
+<ownerDesignName>Er_schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F8EC0A7-14B1-4E69-750C-241C5C80F2A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
